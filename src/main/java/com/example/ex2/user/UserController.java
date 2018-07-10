@@ -18,7 +18,6 @@ public class UserController {
     /**
      * Address -> /user/detail
      * @param userBean
-     * @return
      * @throws SQLException
      */
     @PostMapping("/detail")
@@ -29,7 +28,6 @@ public class UserController {
     /**
      * Address -> /user/create
      * @param userBean
-     * @return
      * @throws SQLException
      */
     @PutMapping("/create")
@@ -40,7 +38,6 @@ public class UserController {
     /**
      * Address -> /user/update
      * @param userBean
-     * @return
      * @throws SQLException
      */
     @PatchMapping("/update")
@@ -51,7 +48,6 @@ public class UserController {
     /**
      * Address -> /user/delete
      * @param userBean
-     * @return
      * @throws SQLException
      */
     @DeleteMapping("/delete")
@@ -62,7 +58,6 @@ public class UserController {
     /**
      * Address -> /user?id=1
      * @param id
-     * @return
      * @throws SQLException
      */
     @GetMapping
@@ -72,7 +67,6 @@ public class UserController {
 
     /**
      * Address ->  /user/all
-     * @return
      * @throws SQLException
      */
     @GetMapping("/all")
