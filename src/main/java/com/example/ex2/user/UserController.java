@@ -73,5 +73,4 @@ public class UserController {
     public List<UserBean> getAllUser() throws SQLException{
         return userService.getAllUser();
     }
-
 }
